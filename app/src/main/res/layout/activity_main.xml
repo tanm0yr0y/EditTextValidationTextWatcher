@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Enter your percentage:" />
+
+    <EditText
+        android:id="@+id/text_field"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:hint="[example: 75%]"
+        android:focusable="true"
+        app:layout_constraintBaseline_toBaselineOf="@id/text"
+        app:layout_constraintLeft_toRightOf="@id/text" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
